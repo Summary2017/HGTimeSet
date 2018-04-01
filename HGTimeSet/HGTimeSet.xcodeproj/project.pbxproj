@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5104B6222070ED6100067A33 /* DisplayLinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104B6212070ED6100067A33 /* DisplayLinkController.m */; };
+		510D6BDA2070D7810095C214 /* YYKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D6BD92070D7810095C214 /* YYKitController.m */; };
+		510D6BDD2070D8750095C214 /* YYADDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D6BDC2070D8750095C214 /* YYADDController.m */; };
+		510D6BE12070E3B20095C214 /* DispatchSourceTController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510D6BE02070E3B20095C214 /* DispatchSourceTController.m */; };
+		514CE02220708BC7007EC6B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE02120708BC7007EC6B8 /* AppDelegate.m */; };
+		514CE02520708BC7007EC6B8 /* HGController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE02420708BC7007EC6B8 /* HGController.m */; };
+		514CE03A20708E72007EC6B8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514CE03820708E72007EC6B8 /* Info.plist */; };
+		514CE03B20708E72007EC6B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE03920708E72007EC6B8 /* main.m */; };
+		514CE03D20708E7A007EC6B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514CE03C20708E7A007EC6B8 /* Assets.xcassets */; };
+		514CE04220708E83007EC6B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514CE03E20708E83007EC6B8 /* LaunchScreen.storyboard */; };
+		514CE04320708E83007EC6B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514CE04020708E83007EC6B8 /* Main.storyboard */; };
+		514CE04820709824007EC6B8 /* DelayedPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE04720709824007EC6B8 /* DelayedPController.m */; };
+		514CE04C20709B5F007EC6B8 /* TimersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE04B20709B5F007EC6B8 /* TimersController.m */; };
+		514CE04F20709CD0007EC6B8 /* TimerBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE04E20709CD0007EC6B8 /* TimerBlockController.m */; };
+		514CE05220709D05007EC6B8 /* TimerTargetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE05120709D05007EC6B8 /* TimerTargetController.m */; };
+		514CE0562070D1FE007EC6B8 /* DispatchAfterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE0552070D1FE007EC6B8 /* DispatchAfterController.m */; };
+		514CE05D2070D5BA007EC6B8 /* NSTimer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE05C2070D5BA007EC6B8 /* NSTimer+YYAdd.m */; };
+		514CE0602070D664007EC6B8 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE05F2070D664007EC6B8 /* YYWeakProxy.m */; };
+		514CE0632070D6D2007EC6B8 /* WeakProxyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CE0622070D6D2007EC6B8 /* WeakProxyController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5104B6202070ED6100067A33 /* DisplayLinkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayLinkController.h; sourceTree = "<group>"; };
+		5104B6212070ED6100067A33 /* DisplayLinkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayLinkController.m; sourceTree = "<group>"; };
+		510D6BD82070D7810095C214 /* YYKitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitController.h; sourceTree = "<group>"; };
+		510D6BD92070D7810095C214 /* YYKitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYKitController.m; sourceTree = "<group>"; };
+		510D6BDB2070D8750095C214 /* YYADDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYADDController.h; sourceTree = "<group>"; };
+		510D6BDC2070D8750095C214 /* YYADDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYADDController.m; sourceTree = "<group>"; };
+		510D6BDF2070E3B20095C214 /* DispatchSourceTController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispatchSourceTController.h; sourceTree = "<group>"; };
+		510D6BE02070E3B20095C214 /* DispatchSourceTController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatchSourceTController.m; sourceTree = "<group>"; };
+		514CE01D20708BC7007EC6B8 /* HGTimeSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGTimeSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		514CE02020708BC7007EC6B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		514CE02120708BC7007EC6B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		514CE02320708BC7007EC6B8 /* HGController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGController.h; sourceTree = "<group>"; };
+		514CE02420708BC7007EC6B8 /* HGController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGController.m; sourceTree = "<group>"; };
+		514CE03820708E72007EC6B8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		514CE03920708E72007EC6B8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		514CE03C20708E7A007EC6B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		514CE03F20708E83007EC6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		514CE04120708E83007EC6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		514CE04620709824007EC6B8 /* DelayedPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelayedPController.h; sourceTree = "<group>"; };
+		514CE04720709824007EC6B8 /* DelayedPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelayedPController.m; sourceTree = "<group>"; };
+		514CE04A20709B5F007EC6B8 /* TimersController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimersController.h; sourceTree = "<group>"; };
+		514CE04B20709B5F007EC6B8 /* TimersController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimersController.m; sourceTree = "<group>"; };
+		514CE04D20709CD0007EC6B8 /* TimerBlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerBlockController.h; sourceTree = "<group>"; };
+		514CE04E20709CD0007EC6B8 /* TimerBlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerBlockController.m; sourceTree = "<group>"; };
+		514CE05020709D05007EC6B8 /* TimerTargetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTargetController.h; sourceTree = "<group>"; };
+		514CE05120709D05007EC6B8 /* TimerTargetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTargetController.m; sourceTree = "<group>"; };
+		514CE0542070D1FE007EC6B8 /* DispatchAfterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispatchAfterController.h; sourceTree = "<group>"; };
+		514CE0552070D1FE007EC6B8 /* DispatchAfterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatchAfterController.m; sourceTree = "<group>"; };
+		514CE05B2070D5BA007EC6B8 /* NSTimer+YYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+YYAdd.h"; sourceTree = "<group>"; };
+		514CE05C2070D5BA007EC6B8 /* NSTimer+YYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+YYAdd.m"; sourceTree = "<group>"; };
+		514CE05E2070D664007EC6B8 /* YYWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		514CE05F2070D664007EC6B8 /* YYWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		514CE0612070D6D2007EC6B8 /* WeakProxyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakProxyController.h; sourceTree = "<group>"; };
+		514CE0622070D6D2007EC6B8 /* WeakProxyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakProxyController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		514CE01A20708BC7007EC6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5104B61F2070ED3100067A33 /* CADisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				5104B6202070ED6100067A33 /* DisplayLinkController.h */,
+				5104B6212070ED6100067A33 /* DisplayLinkController.m */,
+			);
+			path = CADisplayLink;
+			sourceTree = "<group>";
+		};
+		510D6BDE2070E3810095C214 /* dispatch_source_t */ = {
+			isa = PBXGroup;
+			children = (
+				510D6BDF2070E3B20095C214 /* DispatchSourceTController.h */,
+				510D6BE02070E3B20095C214 /* DispatchSourceTController.m */,
+			);
+			path = dispatch_source_t;
+			sourceTree = "<group>";
+		};
+		514CE01420708BC7007EC6B8 = {
+			isa = PBXGroup;
+			children = (
+				514CE01F20708BC7007EC6B8 /* HGTimeSet */,
+				514CE01E20708BC7007EC6B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		514CE01E20708BC7007EC6B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				514CE01D20708BC7007EC6B8 /* HGTimeSet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		514CE01F20708BC7007EC6B8 /* HGTimeSet */ = {
+			isa = PBXGroup;
+			children = (
+				514CE0442070977D007EC6B8 /* Timers */,
+				514CE03720708E46007EC6B8 /* AppDelegate */,
+				514CE03620708E33007EC6B8 /* SupportingFiles */,
+				514CE02320708BC7007EC6B8 /* HGController.h */,
+				514CE02420708BC7007EC6B8 /* HGController.m */,
+			);
+			path = HGTimeSet;
+			sourceTree = "<group>";
+		};
+		514CE03620708E33007EC6B8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				514CE03E20708E83007EC6B8 /* LaunchScreen.storyboard */,
+				514CE04020708E83007EC6B8 /* Main.storyboard */,
+				514CE03C20708E7A007EC6B8 /* Assets.xcassets */,
+				514CE03820708E72007EC6B8 /* Info.plist */,
+				514CE03920708E72007EC6B8 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		514CE03720708E46007EC6B8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				514CE02020708BC7007EC6B8 /* AppDelegate.h */,
+				514CE02120708BC7007EC6B8 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		514CE0442070977D007EC6B8 /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				5104B61F2070ED3100067A33 /* CADisplayLink */,
+				510D6BDE2070E3810095C214 /* dispatch_source_t */,
+				514CE0532070D1F4007EC6B8 /* DispatchAfter */,
+				514CE04920709B3D007EC6B8 /* NSTimer */,
+				514CE0452070980C007EC6B8 /* DelayedP */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		514CE0452070980C007EC6B8 /* DelayedP */ = {
+			isa = PBXGroup;
+			children = (
+				514CE04620709824007EC6B8 /* DelayedPController.h */,
+				514CE04720709824007EC6B8 /* DelayedPController.m */,
+			);
+			path = DelayedP;
+			sourceTree = "<group>";
+		};
+		514CE04920709B3D007EC6B8 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				514CE0592070D4CC007EC6B8 /* YYKit */,
+				514CE0572070D495007EC6B8 /* General */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		514CE0532070D1F4007EC6B8 /* DispatchAfter */ = {
+			isa = PBXGroup;
+			children = (
+				514CE0542070D1FE007EC6B8 /* DispatchAfterController.h */,
+				514CE0552070D1FE007EC6B8 /* DispatchAfterController.m */,
+			);
+			path = DispatchAfter;
+			sourceTree = "<group>";
+		};
+		514CE0572070D495007EC6B8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				514CE04A20709B5F007EC6B8 /* TimersController.h */,
+				514CE04B20709B5F007EC6B8 /* TimersController.m */,
+				514CE04D20709CD0007EC6B8 /* TimerBlockController.h */,
+				514CE04E20709CD0007EC6B8 /* TimerBlockController.m */,
+				514CE05020709D05007EC6B8 /* TimerTargetController.h */,
+				514CE05120709D05007EC6B8 /* TimerTargetController.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		514CE0592070D4CC007EC6B8 /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				514CE05A2070D4D7007EC6B8 /* Libs */,
+				510D6BD82070D7810095C214 /* YYKitController.h */,
+				510D6BD92070D7810095C214 /* YYKitController.m */,
+				510D6BDB2070D8750095C214 /* YYADDController.h */,
+				510D6BDC2070D8750095C214 /* YYADDController.m */,
+				514CE0612070D6D2007EC6B8 /* WeakProxyController.h */,
+				514CE0622070D6D2007EC6B8 /* WeakProxyController.m */,
+			);
+			path = YYKit;
+			sourceTree = "<group>";
+		};
+		514CE05A2070D4D7007EC6B8 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				514CE05B2070D5BA007EC6B8 /* NSTimer+YYAdd.h */,
+				514CE05C2070D5BA007EC6B8 /* NSTimer+YYAdd.m */,
+				514CE05E2070D664007EC6B8 /* YYWeakProxy.h */,
+				514CE05F2070D664007EC6B8 /* YYWeakProxy.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		514CE01C20708BC7007EC6B8 /* HGTimeSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514CE03320708BC7007EC6B8 /* Build configuration list for PBXNativeTarget "HGTimeSet" */;
+			buildPhases = (
+				514CE01920708BC7007EC6B8 /* Sources */,
+				514CE01A20708BC7007EC6B8 /* Frameworks */,
+				514CE01B20708BC7007EC6B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGTimeSet;
+			productName = HGTimeSet;
+			productReference = 514CE01D20708BC7007EC6B8 /* HGTimeSet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		514CE01520708BC7007EC6B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZhuHong;
+				TargetAttributes = {
+					514CE01C20708BC7007EC6B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 514CE01820708BC7007EC6B8 /* Build configuration list for PBXProject "HGTimeSet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 514CE01420708BC7007EC6B8;
+			productRefGroup = 514CE01E20708BC7007EC6B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				514CE01C20708BC7007EC6B8 /* HGTimeSet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		514CE01B20708BC7007EC6B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514CE04220708E83007EC6B8 /* LaunchScreen.storyboard in Resources */,
+				514CE03D20708E7A007EC6B8 /* Assets.xcassets in Resources */,
+				514CE03A20708E72007EC6B8 /* Info.plist in Resources */,
+				514CE04320708E83007EC6B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		514CE01920708BC7007EC6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514CE02520708BC7007EC6B8 /* HGController.m in Sources */,
+				514CE05D2070D5BA007EC6B8 /* NSTimer+YYAdd.m in Sources */,
+				514CE04F20709CD0007EC6B8 /* TimerBlockController.m in Sources */,
+				514CE0562070D1FE007EC6B8 /* DispatchAfterController.m in Sources */,
+				514CE0632070D6D2007EC6B8 /* WeakProxyController.m in Sources */,
+				514CE0602070D664007EC6B8 /* YYWeakProxy.m in Sources */,
+				514CE03B20708E72007EC6B8 /* main.m in Sources */,
+				514CE02220708BC7007EC6B8 /* AppDelegate.m in Sources */,
+				514CE04C20709B5F007EC6B8 /* TimersController.m in Sources */,
+				5104B6222070ED6100067A33 /* DisplayLinkController.m in Sources */,
+				510D6BE12070E3B20095C214 /* DispatchSourceTController.m in Sources */,
+				514CE04820709824007EC6B8 /* DelayedPController.m in Sources */,
+				510D6BDD2070D8750095C214 /* YYADDController.m in Sources */,
+				510D6BDA2070D7810095C214 /* YYKitController.m in Sources */,
+				514CE05220709D05007EC6B8 /* TimerTargetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		514CE03E20708E83007EC6B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				514CE03F20708E83007EC6B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		514CE04020708E83007EC6B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				514CE04120708E83007EC6B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		514CE03120708BC7007EC6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		514CE03220708BC7007EC6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		514CE03420708BC7007EC6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGTimeSet/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CoderHG.HGTimeSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		514CE03520708BC7007EC6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HGTimeSet/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CoderHG.HGTimeSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		514CE01820708BC7007EC6B8 /* Build configuration list for PBXProject "HGTimeSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514CE03120708BC7007EC6B8 /* Debug */,
+				514CE03220708BC7007EC6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514CE03320708BC7007EC6B8 /* Build configuration list for PBXNativeTarget "HGTimeSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514CE03420708BC7007EC6B8 /* Debug */,
+				514CE03520708BC7007EC6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 514CE01520708BC7007EC6B8 /* Project object */;
+}
